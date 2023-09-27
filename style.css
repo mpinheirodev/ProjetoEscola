@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --color-primary: #122674;
+    --color-success: #00a86b;
+    --color-danger: #ff0000;
+    --color-yellow: #dfa754;
+    --color-white: #e9e7e7;
+    --color-black: #000;
+    --color-grafite: #242121;
+    --color-gray: #abadb4;
+}
+
+body {
+    background-color: #C0C0C0;
+    color: var(--color-grafite);
+}
+
+.container {
+    width: 100%;
+    padding: .6rem 4rem;
+}
+
+.navbar {
+    width: 100vw;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    color: var(--color-yellow);
+    margin-bottom: 4rem;
+}
+
+.navbar a {
+    color: var(--color-yellow);
+}
+
+.navbar button {
+    width: 5rem;
+    padding: .6rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: var(--color-yellow);
+    color: var(--color-grafite);
+    cursor: pointer;
+}
+
+.login {
+    transition: all 0.4s;
+    color: var(--color-grafite);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    width: 30%;
+    height: auto;
+    gap: 1rem;
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-white);
+}
+
+.login-content form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .6rem;
+}
+
+.login-content input {
+    border-radius: .4rem;
+    padding: .8rem;
+    border: .1rem solid var(--color-primary);
+    background-color: var(--color-white);
+}
+
+.login-content button {
+    padding: .6rem;
+    width: 10rem;
+    border: none;
+    background-color: var(--color-yellow);
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.login-content a {
+    width: 10rem;
+}
+
+.info-container{
+    padding: 0.8rem;
+}
+
+.test-container h3, p {
+    margin-bottom: 1rem;
+}
+
+.test-container input {
+    margin-bottom: 1rem;
+}
+
+.test-container li {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--color-white);
+    border: none;
+    border-radius: .8rem;
+}
+
+.test-container button {
+    padding: 1rem;
+    border-radius: .4rem;
+    border: none;
+    background-color: var(--color-yellow);
+    cursor: pointer;
+}
